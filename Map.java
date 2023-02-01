@@ -151,9 +151,12 @@ public class Map {
 
                 int offsetX = random.nextInt(3) - 1;
                 int offsetY = random.nextInt(3) - 1;
+                
+                int x = j;
+                int y = j;
 
-                int x = j + offsetX;
-                int y = i + offsetY;
+                x = j + offsetX;
+                y = i + offsetY;
 
                 while (
                         y < 0 ||
